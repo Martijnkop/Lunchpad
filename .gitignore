@@ -1,1 +1,5 @@
 project.nuget.cache
+*.dll
+*.pdb
+*.exe
+backend/.vs/Lunchpad/v16/.suo

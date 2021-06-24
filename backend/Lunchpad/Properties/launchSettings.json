@@ -1,5 +1,4 @@
-﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -8,11 +7,13 @@
       "sslPort": 44375
     }
   },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "Start": {
-      "commandName": "IISExpress",
+    "IISExpress": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
       "launchBrowser": false,
-      "launchUrl": "swagger",
+      "applicationUrl": "http://127.0.0.1:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

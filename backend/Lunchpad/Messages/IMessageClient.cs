@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace Lunchpad.Messages
 {
-    public class IMessageClient
+    public interface IMessageClient
     {
+        Task Test(string testString);
     }
 }
